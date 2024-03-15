@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLAS</title>
+</head>
+<style>
+    h1{ text-align: center;}
+
+    
+    table * {
+        border: 1px solid black;
+
+        /* padding es un relleno en blanco para las celdas de las tablas*/
+
+        padding: 6px;
+    }
+    
+    table {
+        /* Esto es para que ocupe todo el ancho de la pantalla*/
+
+        width:100%;     
+
+        /* con esto eliminamos los bordes de la tabla*/
+
+        border-collapse: collapse; 
+
+        /* con esto centramos el texto de las celdas*/
+        text-align: center;
+
+        /* cambiar fuente o tipo de letra*/
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        border: 1px solid black;
+               
+    
+        }
+
+        th{
+            /* color de fondo*/
+            background-color: rgb(114, 242, 247);
+            
+            /* color de letra*/
+            color: blue;
+
+            /* alinear a la izquierda*/
+
+            text-align:left;
+
+
+        }
+
+
+
+</style>
+
+
+<body>
+
+    <h1>Tablas HTML </h1>
+
+    <h2> Tabla de Usuarios </h2>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>Localidad</th>
+                <th>Profesión</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Alejandra</td>
+                <td>Gómez</td>
+                <td>32</td>
+                <td>Sarrikue</td>
+                <td>Abogada</td>
+            </tr>
+    
+            <tr>
+                <td>Tomas</td>
+                <td>Gómez</td>
+                <td>7</td>
+                <td>Sarrikue</td>
+                <td> Estudiante</td>
+    
+            </tr>
+            <tr>
+    
+                <td>Alex</td>
+                <td>Gómez</td>
+                <td>28</td>
+                <td>Sarrikue</td>
+                <td> Soldador</td>
+            </tr>
+    
+            <tr>
+                <td>Maria Elena</td>
+                <td>Villada</td>
+                <td>58</td>
+                <td>Deusto</td>
+                <td> modista</td>
+            </tr>
+    
+            <tr>
+    
+                <td>José</td>
+                <td>Gómez</td>
+                <td>58</td>
+                <td>Florida</td>
+                <td> Operario</td>
+    
+            </tr>
+        </tbody>
+
+    </table>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
