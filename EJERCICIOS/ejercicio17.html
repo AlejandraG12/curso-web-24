@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 17</title>
+</head>
+
+<body>
+
+    <h1> Completa el formulario</h1>
+    <form action="">
+
+        <label for="name">*Nombre</label>
+        <input type="text" id="nombre" maxlength="10" required> <br> <br>
+
+        <label for="dni">*Dni</label>
+        <input type="text" id="dni" pattern="[0-9]{8}[A-Za-z]
+    " title=" Introduce un DNI válido (8 dígitos seguidos de una letra)" required> <br> <br>
+
+        <label for="Telefono">*Telefono</label>
+        <input type="tel" pattern=[0-9]{9} "telefono" id="telefono" name="telefono"
+            title="Introduce un número de teléfono válido de 9 dígitos" required>
+
+
+        <fieldset>
+            <legend>Género</legend>
+
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label> <br>
+
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="masculino">Femenino</label> <br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Intereses:</legend>
+
+            <input type="checkbox" id="deporte" name="Intereses" value="deporte">
+            <label for="deporte">Deporte</label> <br>
+
+            <input type="checkbox" id="musica" name="Intereses" value="musica">
+            <label for="musica">Música</label> <br>
+
+            <input type="checkbox" id="lectura" name="Intereses" value="lectura">
+            <label for="lectura">Lectura</label>
+
+        </fieldset>
+
+
+        <label for="archivo">Selecciona un archivo:</label> <br>
+        <input type="file" id="archivo" name="archivo"> <br> <br>
+
+    <label for="consulta">Sugerencias:</label> <br>
+    <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea> <br>
+
+
+
+
+      <button type="submit">Enviar</button>
+        
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
