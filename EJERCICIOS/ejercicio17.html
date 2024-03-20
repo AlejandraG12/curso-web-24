@@ -53,14 +53,31 @@
         <label for="archivo">Selecciona un archivo:</label> <br>
         <input type="file" id="archivo" name="archivo"> <br> <br>
 
-    <label for="consulta">Sugerencias:</label> <br>
-    <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea> <br>
+
+<!-- esto sirve para la seleccion de datos ya puestos
+-->
+        <label for="kg de pienso">Selecciona una opcion</label>
+        <select name="kg-pienso" id="kg-pienso">
+            <option value="" disabled> selecciona</option>
+            <option value="1k">1kg</option>
+            <option value="2k">2kg</option>
+            <option value="3k">3kg</option>
+            <option value="4k">4kg</option>
+
+        </select> <br>
+
+        <label for="consulta">Sugerencias:</label> <br>
+        <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Escriba aqui su sugerencia"></textarea>
+        <br>
 
 
 
 
-      <button type="submit">Enviar</button>
+        <button type="submit">Enviar</button>
         
+        
+        <button type="reset">Borrar</button>
+
 
 
 

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 18</title>
+</head>
+
+<body>
+    <h1>Completa el formulario</h1>
+    <form action="">
+
+        <label for="name">*Nombre</label>
+        <input type="text" id="nombre" maxlength="10" required> <br><br>
+
+        <label for="contrasena">*Contraseña</label>
+        <input type="password" id="contrasena" name="contrasena" required> <br><br>
+
+        <label for="email">*Email</label>
+        <input type="email" id="email" name="email" required> <br><br>
+
+        <label for="Telefono">*Telefono</label>
+        <input type="tel" pattern=[0-9]{9} "telefono" id="telefono" name="telefono"
+            title="Introduce un número de teléfono válido de 9 dígitos" required> <br>
+
+        <label for="Fecha de nacimiento">*Fecha de nacimiento</label>
+        <input type="date" id="fecha de nacimiento" name="fecha de nacimiento" required> <br> <br>
+
+
+        <fieldset>
+            <legend> Selecciona un genero </legend>
+
+            <input type="radio" id="masculino" name="genero" value="masculino" checked>
+            <label for="masculino">Masculino</label>
+
+            <input type="radio" id=" femenino" name="genero" value="femenino">
+            <label for="femenino" id="femenino"> Femenino</label>
+
+            <input type="radio" id=" otro" name="genero" value="otro">
+            <label for="otro" id="otro">Otro</label>
+
+
+        </fieldset>
+
+        <label for="archivo">Selecciona un archivo</label>
+        <input type="file" id=" archivo" name="archivo"> <br><br>
+
+        <label for="pais">País</label> <br>
+        <select name="pais" id="pais" required>
+
+        <option value="" disabled>Selecciona un pais</option>
+
+        <option value="espana">España</option>
+        <option value="colombia">Colombia</option>
+        <option value="brasil">Brasil</option>
+        <option value="francia">Francia</option>
+        <option value="ecuador">Ecuador</option>
+    </select> <br>
+
+
+    <label for="consulta"> Mensaje:</label>
+    <textarea name="consulta" id="consulta" cols="30" rows="10" required></textarea> <br> <br>
+
+    <input type="checkbox" name="acepto-politica" id="acepto-politica" checked>
+    <label for="politica"> Acepto la <a href="https://www.google.com/?hl=es">politica de privacidad</a></label> <br>
+
+   <button type="submit"> Enviar</button> <br>
+
+   <button type="reset">Borrar</button> <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>
