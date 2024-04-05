@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de prueba de HTML5</title>
+
+    <style>
+        body {
+            background: linear-gradient(45deg, white,rgb(87, 87, 231)) no-repeat;
+    
+            display: flex;
+    
+            align-items: center;
+    
+            justify-content: center;
+    
+            height: 100vh;
+    
+            animation:fondo 10s infinite alternate;
+    
+            margin: 0;
+     
+        }
+    
+        form {
+            background-color: rgb(228, 231, 249);
+            padding:0 15px;
+            border-radius: 10px;
+    
+        }
+
+        h1{ text-align: center;}
+
+        input#color{
+            border-radius: 50% ; width: 1.6rem; height: 1.6rem;
+        }
+    
+        @keyframes fondo{
+            from { background-color: white;}
+            to {background-color:rgb(87, 87, 231)}
+        }
+    </style>
+</head>
+
+
+
+<body>
+
+    <form action="." method="get">
+
+        <h1>Formulario</h1>
+
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required maxlength="10">
+
+        </p>
+
+        <p><label for="email">Correo Electronico</label>
+            <input type="email" id="email" name="email" required>
+        </p>
+
+        <p><label for="url">URL</label>
+            <input type="url" name="url" id="url" placeholder="Escribe la URL de tu página web personal" >
+        </p>
+
+        <p><label for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha">
+        </p>
+
+        <p><label for="tiempo">Tiempo</label>
+            <input type="time" name="tiempo" id="tiempo">
+        </p>
+
+
+        <p><label for="fecha y hora">Fecha y Hora</label>
+            <input type="datetime" name="fecha y hora" id="fecha y hora">
+        </p>
+
+        <p><label for="mes">Mes</label>
+            <input type="month" name="mes" id="mes">
+        </p>
+
+        <p><label for="semana">Semana</label>
+            <input type="week" name="semana" id="semana">
+        </p>
+
+        <p><label for="numero">Número</label>
+            <input type="number" name="numero" id="numero" min="-10" max="10">
+        </p>
+
+        <p><label for="telefono">Teléfono</label>
+            <input type="tel" name="telefono" id="telefono">
+        </p>
+
+        <p><label for="termino">Término de búsqueda</label>
+            <input type="search" name="termino" id="termino">
+        </p>
+
+        <p><label for="color">Color Favorito</label>
+            <input type="color" name="color" id="color">
+        </p>
+
+        <p><button type="submit">Enviar</button>
+        </p>
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Completo</title>
+</head>
+
+
+
+<body>
+
+    <h1>Completa el formulario:</h1>
+
+   <!-- Empieza ingreso de datos--> 
+
+    <form action=" formulario">
+
+        <label for="nombre">*Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required maxlength="10"><br><br>
+
+        <label for="contrasena">*Contraseña:</label><br>
+        <input type="password" id="contrasena" name="contrasena" required><br><br>
+
+        <label for="email">*Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" placeholder="Ejemplo@ correo.com" required><br><br>
+
+
+        <label for="telefono">*Teléfono:</label><br> 
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}"
+            title="Introduce un número de teléfono válido de 9 dígitos." required><br><br>
+
+        <label for="fecha">*Fecha de Nacimiento:</label><br>
+        <input type="date" id="fecha" name="fecha" required><br><br>
+
+        <!-- termina  ingreso de datos-->
+
+
+        <!-- Empieza el selector de Genero -->
+
+        <fieldset>
+
+
+            <legend>Selecciona un genero</legend>
+
+
+            <input type="radio" id="masculino" name="genero" value="masculino" checked>
+            <label for="masculino">Masculino</label><br>
+
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label><br>
+
+
+
+            <input type="radio" id="otro" name="genero" value="otro">
+            <label for="otro">Otro</label>
+
+
+        </fieldset> <br>
+
+
+        <!-- Acaba el selector de genero -->
+
+            <label for="archivo">Selecciona un archivo:</label><br>
+        <input type="file" id="archivo" name="archivo"><br><br>
+
+
+        <!-- Empieza el selec de Paises -->
+
+        <label for="pais">*País:</label><br>
+        <select id="pais" name="pais" required>
+            <option value="" disabled selected>Selecciona un país</option>
+            <option value="espana">España</option>
+            <option value="francia">Francia</option>
+            <option value="italia">Italia</option>
+            <option value="alemania">Alemania</option>
+            <option value="reino-unido">Reino Unido</option>
+        </select><br><br>
+
+        <!-- Acaba el select de Paises -->
+
+
+        <label for="mensaje">*Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br>
+
+
+        <input type="checkbox" id="politica" name="politica" value="politica" checked>
+        <label for="politica">Acepto la <a href="#">politica de privacidad</a></label><br><br>
+
+        <button type="submit">Enviar</button> <br> <br>
+        <button type="reset">Restablecer</button> <br> <br>
+
+        <!--Suscribirse-->
+
+        <label for="Suscribite  a la Newsletter">Suscribite a la Newsletter</label> <br>
+        <input type="email" required placeholder="ejemplo@correo.com"> <br> <br>
+
+
+
+
+    </form>
+    <!--Para enviar a un correo electronico-->
+
+    <a href="mailto:alfa910612@gmail.com"> Enviar al Correo</a> <br>
+
+    <form action="mailto:alfa910612@gmail.com" method="post"></form>
+</body>
+
+</html>
