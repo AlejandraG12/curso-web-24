@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Prueba-Alejandra G</title>
+</head>
+<body>
+
+    <h1>Rellena tu CV</h1>
+
+    <form action="mailto:correo@gmail.com" method="post">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required maxlength="30"> <br> <br>
+
+        <label for="apellido">Apellidos</label>
+        <input type="text" id="apellido" name="apellido"  required  maxlength="80" size="40"> <br> <br>
+
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" > <br> <br>
+
+        <label for="dni">DNI</label>
+        <input type="text" id="dni" name="dni" pattern="[0-9]{8}[A-Za-z]{1}" size="10"> <br> <br>
+
+
+
+        <label> Sexo </label> <br>
+
+             <input type="radio" name="sexo" id="hombre" value="hombre">
+             <label for="hombre">Hombre</label> <br>
+
+             <input type="radio" name="sexo" id="mujer" value="mujer">
+             <label for="mujer">Mujer</label> <br>
+
+
+       
+
+        <label for="foto">Incluir mi foto</label>
+        <input type="file" id="foto" name="foto"> <br>
+
+
+        <input type="checkbox" name="newsletter" checked>
+        <label>Suscribirse al boletin de novedades</label> <br> <br>
+
+        <button type="submit">Guardar cambios</button> 
+
+        <button type="reset">Borrar los datos introducidos</button> 
+
+
+        
+
+
+
+
+
+
+
+    </form>
+
+
+    
+</body>
+</html>

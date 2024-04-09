@@ -1,0 +1,15 @@
+.flex-container {
+    display: flex;
+    background-color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1,
+.p { margin-bottom: 20px;
+ 
+
+}
+font-size: 90px;
+color:white;
+align-items:center;
