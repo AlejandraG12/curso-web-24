@@ -26,6 +26,9 @@ div {
 
     /* cuatro valores: superior, derecho, inferior e izquierdo */
 }
+
+/* centrar elemento horizontalmente */
+
 #auto{
     width: 200px;
     margin: 0 auto;
