@@ -1,0 +1,212 @@
+#color{
+    background-color: lightgray;
+    color: blue;
+    border: 3px solid ;
+
+}
+
+#color h2 {
+    margin-top: 0;
+    background-color: black;
+    color:white
+}
+
+#color div {
+
+    background-color: dodgerblue;
+    color: white;
+}
+
+#mal-ejemplo-color{
+
+    background-color: crimson;
+    color: fuchsia;
+}
+
+#alinear, #deco, #transformar, #sombras{
+    border: 3px solid black;
+}
+
+#alinear p{
+    text-align: left;
+}
+
+#alinear p + p {
+    text-align: right;
+}
+/*  para alinear el tercer hijo de p (nth child) */
+ 
+#alinear p:nth-child(3){
+    text-align: center;
+}
+
+/*  para alinear la última linea */
+#alinear p :last-child{
+    text-align: justify;
+}
+
+#invertido{
+    /* El texto va de derecha a izquierda  */
+    direction: rtl;
+
+    /* Invierte el orden de los caracteres */
+    unicode-bidi: bidi-override;
+}
+
+code{
+    background-color: rgb(60,60,60);
+    color:rgb(107, 153, 254);
+}
+
+#deco h2{
+    text-decoration-line: line-through;
+    text-decoration-color: crimson;
+}
+
+#deco h3{
+
+    text-decoration-line: overline;
+    text-decoration-thickness: 8px;
+}
+
+#deco h4 {
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+#deco p {
+
+    text-decoration-line: overline underline;
+    text-decoration-style: dashed;
+}
+
+#deco-a{
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+
+}
+
+#transformar p{
+    text-transform: uppercase;
+}
+
+#transformar p+p {
+
+    text-transform: lowercase;
+}
+
+#transformar p+p+p {
+
+    text-transform: capitalize;
+}
+
+
+/* Es como la sangría */
+
+#indentar{
+
+    text-indent: 50px;
+}
+
+#esp1 {
+
+    letter-spacing: 5px;
+}
+
+#esp2 {
+
+    letter-spacing: -2px;
+}
+
+#altura p+p {
+
+    line-height:0.6;
+    background-color: lightblue;
+
+
+}
+
+#altura p:last-child {
+    line-height: 1.8;
+}
+
+#esp-palabras p+p {
+
+    background-color: lightblue;
+    word-spacing: -3px;
+}
+
+#esp-palabras p:last-child {
+
+    word-spacing: 10px;
+}
+
+/* first child : primer hijo */
+
+#sombras h2:first-child{
+
+    /* El primer cambia valor horizontal, segundo vertical */
+
+    text-shadow: 2px 2px;
+}
+
+#sombras h2:nth-child(2){
+
+    text-shadow: 2px 2px crimson;
+
+}
+
+#sombras h2:nth-child(3){
+
+    /* tercer valor,blur o desenfoque */
+
+    text-shadow: 2px 2px 4px rgb(40, 64, 159);
+}
+
+#sombras h2:nth-child(5){
+
+    color: white;
+
+    text-shadow: 2px 2px 4px black;
+}
+
+#sombras h2:nth-child(7){
+
+    text-shadow: 0 0 3px red;
+}
+
+#sombras h2:nth-child(9){
+
+    text-shadow: 0 0 5px purple,0 0 2px crimson;
+}
+
+#sombras h2:last-child{
+
+    color: white;
+    text-shadow: 1px 1px black, 0 0 25px blue, 0 0 5px darkblue;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
