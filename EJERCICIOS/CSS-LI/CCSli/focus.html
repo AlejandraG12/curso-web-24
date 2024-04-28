@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <style>
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        text-decoration: none;
+        list-style: none;
+    }
+
+
+    #site-main {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    }
+
+
+    nav li a {
+    display: block;
+    padding: 10px;
+    color: #000;
+    }
+
+
+
+
+/* Estilos para el hover y el foco */
+    nav li a:hover, nav li a:focus {
+    background-color: #ff0000;
+    color: #fff;
+    outline: none;
+    }              
+
+
+
+
+@media (min-width: 1024px) {
+   
+    #site-main{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    #site-main h1{
+        margin-bottom: 0;
+    }
+
+
+    #site-main nav ul{
+        display: flex;
+    }
+ 
+}
+    </style>
+</head>
+<body>
+    <header id="site-main">
+        <h1>Hover con Media Query</h1>
+      <nav>
+        <ul >
+          <li><a href="#">Elemento 1</a></li>
+          <li><a href="#">Elemento 2</a></li>
+          <li><a href="#">Elemento 3</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+
+</body>
+</html>
+

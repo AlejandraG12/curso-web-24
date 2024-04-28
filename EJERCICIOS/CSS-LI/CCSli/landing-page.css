@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+#showcase {
+
+    background-image: url(https://services.meteored.com/img/article/las-playas-espanolas-se-quedan-sin-arena-1660903670354_1280.jpeg);
+    background-position: center;
+    background-size: cover;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: chocolate;
+
+
+
+}
+
+#showcase h1 {
+    font-size: 3.5rem;
+
+
+
+}
+
+#showcase p {
+
+    font-size: 1.35rem;
+    margin: 10px 0 20px;
+}
+
+.button {
+
+
+
+    border: solid chocolate;
+    padding: 15px 15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: chocolate;
+    text-decoration: none;
+
+
+
+}
+
+.button:hover {
+    color:saddlebrown;
+    background-color:rgb(242, 235, 169);
+}
+
+.button:active {
+    transform: translateY(5px);
+}
+
+#section,
+div {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 33.33%;
+    line-height: 200%;
+
+}
+
+#section {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#section-a,
+box-1,
+.box-3 {
+
+    color: white;
+    background-color: chocolate;
+
+
+}
+
+#section-b,
+.box-2 {
+
+    color: chocolate;
+    background-color: white;
+
+}
+
+#section-c {
+    padding: 0;
+    text-align: left;
+    display: flex;
+}
+
+.box-2 {
+    color: chocolate;
+    background-color: white;
+}

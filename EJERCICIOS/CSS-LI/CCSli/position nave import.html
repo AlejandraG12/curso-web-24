@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        font-family: sans-serif;
+
+    }
+
+    #site-nav{
+        background-color:cadetblue;
+        padding: 0 20px;
+       
+    }
+
+    #site-nav a {
+        color: white;
+        display: inline-block;
+        padding: 20px;
+   
+    
+    }
+
+    #site-nav > ul {
+
+       display: flex;
+      
+    }
+
+    #site-nav > ul ul {
+
+        background-color: rgb(64, 99, 100);
+        text-align: center;
+        position: absolute;
+        
+        
+    }
+
+    #site-nav >ul>li:nth-child(3){
+
+        position: relative;
+    }
+
+    #site-nav>ul>li>ul {
+
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        display: none;
+
+    
+    }
+
+    /* hover son los números que se ven cuando se pasan x la web */
+    #site-nav>ul>li:nth-child(3):hover>ul {
+
+        display: block;
+    }
+
+    #site-nav>ul>li a:hover{
+        background-color: black;
+    }
+
+
+  
+
+
+
+
+
+
+
+
+
+</style>
+<body>
+    <nav id="site-nav">
+        <ul>
+             <li><a href="#">Uno</a></li>
+             <li><a href="#">Dos</a></li>
+             <li><a href="#">Tres</a>
+                 <ul>
+                     <li><a href="#">1</a></li>
+                     <li><a href="#">2</a></li>
+                     <li><a href="#">3</a></li>
+                 </ul>
+             </li>
+             <li><a href="#">Cuatro</a></li>
+        </ul>
+    </nav>
+ 
+ 
+    
+</body>
+</html>
