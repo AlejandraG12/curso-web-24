@@ -1,0 +1,63 @@
+/* link siempre tiene que ir de primero */
+
+a:link{
+    color:#90f;
+
+    /*  color: #RGB O #RRGGB -> VALORES DE 0 A F  ( de 0 15)*/
+}
+a:visited{
+
+    color: crimson;
+}
+
+a:hover{
+
+    color: dodgerblue;
+
+
+
+    cursor:wait;
+}
+
+/* siempre active tiene que ir despúes de active para que active tenga prioridad */
+
+a:active {
+
+    color: blueviolet;
+}
+.ejemplo-div{
+
+    transition: all 0.5s;
+    width: fit-content;
+}
+
+.ejemplo-div:hover{
+
+    background-color: blue;
+    color: white;
+    font-size: 1.15rem;
+    cursor: pointer;
+    padding: 5px 8px;
+    border-radius: 5px;
+    
+}
+.ejemplo-tooltip p {
+
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: none;
+   
+}
+
+.ejemplo-tooltip:hover p{
+    
+    display: block;
+
+}
+
+
+
+
+
