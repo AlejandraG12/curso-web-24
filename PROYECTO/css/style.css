@@ -4,18 +4,149 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
-    font-family: "poppins",Arial, Helvetica, sans-serif;
+   font-family: "Roboto", sans-serif; 
     
 }
 
-img{
+img,video{
+    width: 100vh;
+   
+   display: flex;
+   align-items: center;
+   
 
-    width: 70%;
-    margin:10%;
+}
+
+body{
+
+    margin: 20px 80px;
 }
 
 #site-header{
-
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
 }
+
+
+
+#site-header img {
+   
+
+    width: 80px;
+    
+}
+
+#site-header ul {
+
+  
+  display: flex;
+}
+
+#site-header nav a {
+
+    color: gray;
+    padding: 10px;
+    letter-spacing: 2px;
+   
+}
+/* flecha */
+
+#site-header nav>ul>li {
+
+    position: relative;
+    margin: 0 20px;
+}
+
+#site-header nav>ul>li>i{
+
+    position: absolute;
+    color: chocolate;
+    bottom: 150%;
+    opacity: 0;
+    left: 45%;
+}
+
+#site-header nav>ul>li>a:hover+i{
+
+ bottom: 100%;
+ opacity: 1;
+ transition: opacity 1s, bottom 1s;
+}
+/* termina la flecha */
+
+#site-header nav ul li ul{
+
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    right: 0;
+    padding-top: 10px;
+    display: none;
+
+}
+#site-header nav>ul li:hover ul{
+    display: block;
+}
+
+/* H1 Encabezado */
+
+#index-main h1{
+
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+#index-main h1 span{
+    background-color: rgb(218, 165, 50);
+    cursor: pointer;
+}
+
+#index-main h1 span:hover {
+
+    background-color: white;
+    transition: background-color 1s;
+}
+/*  se termina el encabezado */
+
+section{
+    display:flex;
+
+    width: 100%;
+}
+/* 
+article{
+    display: block;
+    width: 30%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
