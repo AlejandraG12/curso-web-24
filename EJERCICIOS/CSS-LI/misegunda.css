@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+
+    
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+
+    background-color: #efd7e9;
+   
+    /*  */
+
+    text-align: center;
+    /* color:rgb(248, 232, 138); */
+    font-family: "briem hand";
+    font-size: 25px;
+    
+    background-image:url(../CSS-LI/lau/imag/soli.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header div {
+    background-color: rgba(0, 0, 0, 0.15);
+    height: 100%;
+    padding: 120px 0;
+}
+
+header span:first-child {
+    color:rgb(248, 232, 138);
+}
+header span:nth-child(2)
+{
+    color:rgb(99, 11, 140);
+}
+
+
+
+
+
+header p {
+
+    color: rgb(177, 70, 177);
+}
+
+menu{
+    display: flex;
+    justify-content: space-between; 
+    background-color:rgb(234, 190, 252);
+   
+}
+
+
+menu div{
+    display: flex;
+}
+
+menu a {
+    display: block;
+    color:black;
+    text-decoration: none;
+    padding: 14px 18px;
+}
+
+menu a.home{
+
+    background-color:rgb(231, 117, 241);
+   
+
+
+}
+
+
+menu a:hover{
+
+    background-color:rgb(157, 39, 120);
+    color:white;
+}
+
+menu a.home:hover{
+
+    background-color:rgb(247, 191, 235);
+    color: white;
+}
+
+main{
+
+    
+display: flex;
+    
+}
+
+main section{
+
+    padding: 20px;
+}
+main section*{
+
+    padding: 10px 0px;
+
+}
+
+main section img {
+
+    width:30vh;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+main section.izquierda {
+
+    width: 30%;
+}
+
+main section.derecha{
+
+    width: 70%;
+}
+
+.izquierda{
+  
+
+
+    background-color: rgb(234, 226, 235);
+    padding: 20px;
+    
+}
+
+h3,h5,h2{
+
+    margin-bottom: 15px;
+}
+
+p{
+    padding: 10px;
+}
+
+
+
+
+
+.derecha{
+    display: block;
+    background-color: rgb(180, 150, 180);
+    
+
+ 
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #f2dbf0;
+    
+}
+   
+footer div {
+
+    font-size: 30px;
+
+}
+
+footer div a i {
+    color: darkmagenta;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+#agenda{
+color: blueviolet;
+display: flex;
+font-size: 20px;
+justify-content: center;
+font-family:  "briem hand";
+
+
+
+    
+}
+
+   
+   
