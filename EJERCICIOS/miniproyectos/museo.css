@@ -27,14 +27,14 @@ header > div {
     width: 100%;
     z-index: 2;
 }
-header div.mascara {
+/* header div.mascara {
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 1;
-}
+} */
 header div.superior {
     display: flex;
     justify-content: space-between;
@@ -101,3 +101,129 @@ header nav.izquierda a:hover span{
     0% {width: 0;}
     100% {width: 100%;}
 }
+
+/* Galeria  */
+
+main.gallery{
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 1800px;
+    justify-content: center;
+    padding: 150px 0;
+
+}
+
+/* main.gallery img {
+
+    width: 150px;
+    height: fit-content;
+} */
+
+main.gallery div.imagen{
+
+    width: 25%;
+    height: 33%;
+    background-color: #333;
+    border: 1px solid white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+main.gallery div.imagen:first-child{
+
+    background-image: url("https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg");
+    
+
+}
+
+main.gallery div.imagen:nth-child(2){
+
+    background-image: url("https://images.pexels.com/photos/1585325/pexels-photo-1585325.jpeg");
+    
+
+}
+
+main.gallery div.imagen:nth-child(3){
+
+    background-image: url("https://images.pexels.com/photos/22873841/pexels-photo-22873841/free-photo-of-ciudad-arte-punto-de-referencia-viaje.jpeg");
+}
+
+main.gallery div.imagen:nth-child(4){
+
+    background-image: url("https://images.pexels.com/photos/19984204/pexels-photo-19984204/free-photo-of-mujer-arte-artista-cuadros.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+main.gallery div.imagen:nth-child(5){
+
+    background-image: url("https://images.pexels.com/photos/1727658/pexels-photo-1727658.jpeg");
+}
+
+main.gallery div.imagen:nth-child(6){
+
+    background-image: url("https://images.pexels.com/photos/6681867/pexels-photo-6681867.jpeg" );
+}
+
+main.gallery div.imagen:nth-child(7){
+
+    background-image: url(https://images.pexels.com/photos/4585185/pexels-photo-4585185.jpeg);
+}
+
+main.gallery div.imagen:nth-child(8){
+
+    background-image: url(https://images.pexels.com/photos/4207785/pexels-photo-4207785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+main.gallery div.imagen:nth-child(9){
+
+    background-image: url(https://images.pexels.com/photos/4576085/pexels-photo-4576085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+div.imagen div.sumar{
+
+    width: 100%;
+    height: 0%;
+    background-color: white;
+    
+    transition: all.5s;
+    
+}
+
+div.imagen div.sumar p{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(232, 195, 150);
+    font-size: 4rem;
+   opacity: 0;
+
+}
+
+div.imagen:hover > div.sumar{
+
+   height: 100%;
+
+}
+
+div.imagen:hover> div.sumar p{
+
+   opacity: 1;
+   transition: all 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
