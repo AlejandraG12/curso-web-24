@@ -14,13 +14,47 @@ function mostrarHora() {
 
     //construir el string para mostrar la hora
 
-    let reloj=hora +  minutos + segundos;
+    if (hora<10) {
+        hora='0'+ hora
+      
+    }
+
+    if (minutos<10) {
+        minutos='0'+ minutos
+       
+    }
+
+    segundos=(segundos<10)? "0" + segundos: segundos
+
+    //variable= (condicion if) ? valor si verdadero:
+    //valor si falso
+
+    let reloj=hora + ":" + minutos +  ":" + segundos;
+
+
 
     //Imprimir la información en pantalla
+
     //Identificar el div donde vamos a meter la info 
+
     let pantalla= document.getElementById('pantalla');
+
+    //meter la info en el div 
+
+    pantalla.innerHTML=reloj;
+
+    //Actualizar la función y por tanto la hora, cada segundo
+
+    setTimeout(mostrarHora,1000);
+
+    // setTimeout realiza una  cuenta atrás en ms, en este caso 1000 o 1 segundo
+
+    //Al finalizar la cuenta atrás , ejecuta la función que le hemos indicado
 
 
 
 }
+
+//ejecutamos la función
+mostrarHora();
 
