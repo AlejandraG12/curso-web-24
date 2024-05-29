@@ -1,0 +1,31 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+body{
+
+    background-color: rgb(90, 88, 88);
+}
+
+div {
+   
+    font-size: 12rem;
+    color:rgb(101, 235, 112);
+    height: 100vh;
+    font-weight: bold;
+    font-family: kode mono;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+      
+  
+}
+
+
+
+
+

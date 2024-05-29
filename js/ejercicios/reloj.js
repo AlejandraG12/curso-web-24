@@ -11,13 +11,24 @@ function mostrarHora() {
     let hora = fecha.getHours(); // nos da la hora de 0 a 23
     let minutos = fecha.getMinutes(); // nos da los minutos de 0-59
     let segundos = fecha.getSeconds(); // nos da los segundos de 0-59
+    let formato= 'AM'
 
     //construir el string para mostrar la hora
+
+    if (hora>12) { 
+
+        // CAMBIAR EL FORMATO DEPENDIENDO DE LA HORA 
+        hora= hora-12;
+
+        // POR EJEMPLO, SI LA HORA =13, SE CAMBIA A 1PM
+        formato= 'PM';
+        
+    };
 
     if (hora<10) {
         hora='0'+ hora
       
-    }
+    };
 
     if (minutos<10) {
         minutos='0'+ minutos
@@ -29,7 +40,7 @@ function mostrarHora() {
     //variable= (condicion if) ? valor si verdadero:
     //valor si falso
 
-    let reloj=hora + ":" + minutos +  ":" + segundos;
+    let reloj=hora + ":" + minutos +  ":" + segundos+" " + formato;
 
 
 
