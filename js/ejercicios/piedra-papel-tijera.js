@@ -1,5 +1,5 @@
 let jugada;
-let juagadaCPU;
+let jugadaCPU;
 let puntuacion;
 
 const opciones=[
@@ -15,7 +15,14 @@ function elegir(jugada) {
     
 }
 
-function elegirCpu() {
+function elegir(jugadaCPU) {
+
+    var aleatorio=Math.floor(Math.random()* opciones.length)
+    var elegirCpu=opciones[aleatorio];
+
+    console.log('La CPU ha elegido'+" " + elegirCpu)
+
+   
 
     // elegir número random 0-2
     // Opciones [numeros random]
