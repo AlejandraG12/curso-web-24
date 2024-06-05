@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src=""></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="pedra-papel-tijera.css">
+</head>
+
+<style>
+
+    
+
+button{
+    font-size: 6rem;
+      background-color:rgb(169, 223, 114);
+      color: black;
+      width: 12rem;
+      height: 12rem;
+      border-radius: 50%;
+      border: dashed whitesmoke 4px;
+      
+      
+    
+   }
+
+   button:nth-child(1){
+
+       background-color: rgb(27, 224, 224);
+
+   }
+
+   button:nth-child(2){
+
+background-color:rgb(228, 149, 165);
+
+}
+
+
+
+
+   body{
+
+       background-color: rgb(12, 12, 12);
+   }
+
+    
+</style>
+
+
+
+
+<body>
+
+  
+    
+
+<button id="bnt-piedra"onclick="elegir('piedra')"><i class="fa-regular fa-hand-back-fist"></i></button>
+<button id=" bnt-papel "onclick="elegir('papel')"><i class="fa-regular fa-hand"></i></button>
+<button id=" bnt-tijera"onclick="elegir('tijera')"><i class="fa-regular fa-hand-scissors"></i></button>
+
+    
+</body>
+<script src="piedra-papel-tijera.js"></script>
+
+</html>
