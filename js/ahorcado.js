@@ -6,6 +6,7 @@
 
 let palabra='';
 
+
 const listaPalabras=[
     'mesa',
     'lampara',
@@ -42,12 +43,19 @@ let palabraOculta='';
     palabraOculta +="_ ";
 
  }
- console.log("palabra oculta: "+ palabraOculta)
+ console.log("palabra oculta: "+ palabraOculta);
 
 
+ 
 
+ 
 
 // Tienes que adivinar la palabra
+
+function jugar(letra) {
+    console.log(letra);
+    
+}
 
 //Tienes que adivinar las letras de la palabra
 
