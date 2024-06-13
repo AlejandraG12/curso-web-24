@@ -5,5 +5,5 @@ function cambiarTexto(){
 
     parrafo.innerHTML=texto;
 
-
 }
+

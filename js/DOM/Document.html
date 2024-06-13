@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="general.css">
+
+
+    <title>El objeto del Document</title>
+
+</head>
+<body>
+    <h1>El objeto document</h1>
+    <p>Es el dueño o el ancestro de los demás objetos de la página web</p>
+
+    <p>Si quieres acceder a cualquier elemento HTML, debes empezar accediendo al objeto document.</p>
+
+    <p>Algunos ejemplos para acceder y manipular el HTML:</p>
+    
+    <h3>Encontrar elementos</h3>
+
+    <ul>
+        <li><code>document.getElementById('id')</code>: Encuentra un elemento buscando su id.</li>
+        <li><code>document.getElementsByTagName('etiqueta')</code>:Encuentra elementos buscando su nombre de etiqueta y <strong>nos retorna un array</strong></li>
+        <li><code>document.getElementsByClassName('clase')</code>:Encuentra los elementos que tengan la clase indicad. Retorna un array(recordemos que los elementos pueden tener mas de una clase).</li>
+    </ul>
+
+    <h3>Manipular elementos</h3>
+    <h4>Propiedades</h4>
+    <ul>
+        <li><code>elemento.innerHTML='nuevo contenido'</code> Reemplaza el contenido de un elemento HTML</li>
+        <li><code>elemento.atributo='nuevo valor'</code>: Cambia el atributo de un elemento(por ejemplo , el atributo type de in input)</li>
+        <li><code>elemento.style.propiedad='nuevo estilo'</code>: Cambia el estilo CSS de un elemento.</li>
+    </ul>
+
+    <h4>Método</h4>
+
+    <ul>
+        <li><code>elemento.setAttribute(atributo, valor)</code>: cambia el atributo de un elemento .</li>
+    </ul>
+
+
+    <h3>Crear y eliminar elementos</h3>
+    <h4>Métodos</h4>
+    <ul>
+        <li><code>document.createElement('elemento')</code>:Crea un elemento HTML</li>
+        <li><code>document.removeChild('elemento')</code>:Elimina un elemento HTML desde el padre.</li>
+        <li><code>document.appendchild('elemento')</code>:Crea un elemento dentro de otro.</li>
+        <li><code>document.replaceChild('nuevo,viejo)</code>: sustituye un elemento por otro.</li>
+        <li><code>document.write(texto)</code>:Escribe en el ouput final de la página(puede sobreescribir toda la página).</li>
+    </ul>
+
+    
+</body>
+<script src="Document.js"></script>
+</html>
