@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+
+
+
+* {
+font-family:'Embed code' ;
+
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.marcada {
+    color: rgba(100, 100, 100, 0.5);
+
+    text-decoration: line-through;
+
+
+}
+
+header {
+
+    background-color:#79A93B;
+    padding: 40px 50px;
+    color:#ebf3d8;
+    text-align: center;
+
+}
+
+header h1{
+    font-size: 45px;
+    color:#ebf3d8;
+    font-weight: bold;
+    
+}
+
+header button{
+
+    background-color:#E0C1AF;
+  
+
+}
+
