@@ -10,6 +10,10 @@ font-family:'Embed code' ;
 
     font-size: 30px;
     box-sizing: border-box;
+   
+    list-style: none;
+
+    
 }
 
 .marcada {
@@ -22,16 +26,17 @@ font-family:'Embed code' ;
 
 header {
 
-    background-color:#79A93B;
+    background-color:#addad7;
     padding: 40px 50px;
-    color:#ebf3d8;
+  
+    color:#a07f70;
     text-align: center;
 
 }
 
 header h1{
     font-size: 45px;
-    color:#ebf3d8;
+
     font-weight: bold;
     
 }
@@ -39,6 +44,7 @@ header h1{
 header button{
 
     background-color:#E0C1AF;
+    border-radius: 5px;
   
 
 }
