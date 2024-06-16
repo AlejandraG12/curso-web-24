@@ -19,7 +19,7 @@ function agregarTarea() {
         let elemento = document.createElement('li');
 
         //le añadimos el contenido
-        elemento.innerHTML = '<button onclick="marcarTarea(this)"><i class="bi bi-check2"></i></button>'
+        elemento.innerHTML = '<button onclick="marcarTarea(this)"><i class="bi bi-check2"></i></button>';
         elemento.innerHTML += texto;
         elemento.innerHTML += '<button onclick="borrarTarea(this)"><i class="bi bi-x-lg"></i></button>';
 
