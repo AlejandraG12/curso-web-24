@@ -8,10 +8,11 @@
 * {
     list-style: none;
     font-family: 'Martian Mono';
-
     box-sizing: border-box;
 
 }
+
+/* Empieza el header*/
 
 header {
 
@@ -20,11 +21,8 @@ header {
     color:white;
     text-align: center;
     font-size: 30px;
-  
-    
+      
 }
-
-
 
 header h1 {
     font-size: 60px;
@@ -49,13 +47,13 @@ header button {
 
 header button:hover{
 
-    background: #aaebee; 
+    background: #a4eef3; 
     color:black;
     border-radius: 10px;
     box-shadow: 0 0 5px #aaebee ,
+    0 0 10px #aaebee,
     0 0 20px #aaebee,
-    0 0 30px #aaebee,
-    0 0 80px #aaebee;
+    0 0 50px #aaebee;
 
 }
 
@@ -69,13 +67,14 @@ header button:hover{
     
 }
 
+/* Termina el header*/
 
 #lista button {
 
     
     background-color:#13293D;
     border-radius:15px;
-    border: 2px solid #B7D1DA ;
+    border: 2px solid  white ;
     padding:7px;
     color: white;
     margin:10px;
@@ -84,6 +83,8 @@ header button:hover{
 
 }
 
+/* boton para cerrar (x)*/
+
 #lista button:nth-child(2){
 
     position: absolute;
@@ -91,8 +92,6 @@ header button:hover{
    
     
 }
-
-
 
 .marcada{
     color: rgba(100, 100, 100, 05);
@@ -112,11 +111,7 @@ li i{
 
   display: flex;
 
-
-
 }
-
-
 
 #lista{
 
@@ -130,13 +125,8 @@ li i{
 
     position: relative;
     cursor: pointer;
-   
-
-    transition: 0.2s;
-    
-
+     transition: 0.2s;
   
-
 }
 
 ul li:hover{
