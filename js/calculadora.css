@@ -1,0 +1,30 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: monospace;
+
+
+}
+
+body{
+
+    min-height: 100vh;
+    background-color:lightcyan;
+    display: grid;
+    place-items: center;
+
+}
+
+.calculadora{
+    background-color:rgb(102, 241, 144);
+    color: chocolate;
+    display: grid;
+    width: 600px;
+    max-width: 100%;
+    grid-template-columns: repeat(4, 1fr);/*sirve para definir el número de columnas que tendrá nuestra rejilla, así como los tamaños asignados a cada una, y el fr me sirve para adaptarla a todas las anchuras posibles*/
+    font-size: 25px;
+
+
+
+}
